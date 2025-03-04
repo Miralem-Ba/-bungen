@@ -168,3 +168,12 @@ def is_less_than_100(n):
     return n >= 100
 # Funktionsaufruf
 is_less_than_100(99)
+
+# Einen Satz mit Ausrufezeichen versehen
+# Schreibe eine Funktion add_exclamation(sentence), die ein Ausrufezeichen an einen Satz anhängt.
+# Beispiel: add_exclamation("Ich mag Programmieren") → "Ich mag Programmieren!"
+def add_exclamation(sentence):
+    return sentence + "!"
+# Funktionsaufruf
+add_exclamation("Ich mag Programmieren")
+add_exclamation("Wow!")
