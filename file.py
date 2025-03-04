@@ -57,3 +57,11 @@ def is_positive(n):
     return n > 0
 # Funktionsaufruf
 is_positive(1)
+
+# Erster Buchstabe eines Wortes
+# Schreibe eine Funktion first_letter(word), die den ersten Buchstaben eines Wortes zurückgibt.
+# Beispiel: first_letter("Banane") → "B"
+def first_letter(word):
+    return word[0]
+# Funktionsaufruf
+first_letter("finale")
