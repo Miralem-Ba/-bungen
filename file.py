@@ -137,3 +137,10 @@ def repeat_name(name):
 # Funktionsaufruf
 repeat_name("lisa")
 
+# Der größere Wert von zwei Zahlen
+# Schreibe eine Funktion max_number(a, b), die die größere der beiden Zahlen zurückgibt.
+# Beispiel: max_number(5, 8) → 8
+def max_number(a, b):
+    return max(a, b)
+# Funktionsaufruf
+max_number(5, 8)
