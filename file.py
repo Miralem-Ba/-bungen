@@ -90,3 +90,9 @@ def greet_with_age(name, age):
     return f"Hallo {name}, du bist {age} Jahre alt!"
 # Funktionsaufruf
 print(greet_with_age("Miralem", 35))
+
+# Variante2
+def greet_with_age(name, age):
+    return "Hallo {}, du bist {} Jahre alt!".format(name, age)
+# Funktionsaufruf
+print(greet_with_age("Miralem", 35))
