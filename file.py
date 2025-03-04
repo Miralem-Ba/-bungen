@@ -28,3 +28,16 @@ def double(n):
     return n * 2
 # Funktionsaufruf
 double(7)
+
+# Längste von zwei Wörtern finden
+# Schreibe eine Funktion longer_word(word1, word2), die das längere der beiden Wörter zurückgibt.
+# Beispiel: longer_word("Haus", "Auto") → "Haus"
+def longer_word(word1, word2):
+    if len(word1) > len(word2):
+        return word1
+    elif len(word1) < len(word2):
+        return word2
+    else:
+        return "Gleich gross"
+# Funktionsaufruf
+longer_word("Haus","Auto")
