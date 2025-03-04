@@ -20,3 +20,11 @@ def square(n):
     return n * n
 # Funktionsaufruf
 square(4)
+
+# Verdopple eine Zahl
+# Schreibe eine Funktion double(n), die das Doppelte einer Zahl zurückgibt.
+# Beispiel: double(6) → 12
+def double(n):
+    return n * 2
+# Funktionsaufruf
+double(7)
