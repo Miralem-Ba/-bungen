@@ -81,3 +81,12 @@ def last_character(text):
     return text[-1]
 # Funktionsaufruf
 last_character("Hallo")
+
+# Einfache Begrüßung mit Alter
+# Schreibe eine Funktion greet_with_age(name, age), die eine Person mit Namen und Alter begrüßt.
+# Beispiel: greet_with_age("Lena", 25) → "Hallo Lena, du bist 25 Jahre alt!"
+# Variante1
+def greet_with_age(name, age):
+    return f"Hallo {name}, du bist {age} Jahre alt!"
+# Funktionsaufruf
+print(greet_with_age("Miralem", 35))
