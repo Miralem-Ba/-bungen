@@ -113,4 +113,10 @@ def subrtact(a, b):
 # Funktionsaufruf
 subrtact(50,35)
 
-
+# Prüfen, ob eine Zahl gleich 10 ist
+# Schreibe eine Funktion is_ten(n), die True zurückgibt, wenn n genau 10 ist, sonst False.
+# Beispiel: is_ten(10) → True, is_ten(7) → False
+def is_ten(n):
+    return n == 10
+# Funktionsaufruf
+is_ten(10)
