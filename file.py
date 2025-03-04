@@ -41,3 +41,11 @@ def longer_word(word1, word2):
         return "Gleich gross"
 # Funktionsaufruf
 longer_word("Haus","Auto")
+
+# Ein Wort mehrmals ausgeben
+# Schreibe eine Funktion repeat_word(word, times), die ein Wort mehrmals hintereinander ausgibt.
+# Beispiel: repeat_word("Hallo", 3) → "HalloHalloHallo"
+def repeat_word(word, times):
+    return word *times
+# Funktionsaufruf
+repeat_word("Hallo",3)
