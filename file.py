@@ -65,3 +65,11 @@ def first_letter(word):
     return word[0]
 # Funktionsaufruf
 first_letter("finale")
+
+# Zwei Wörter zu einem Wort verbinden
+# Schreibe eine Funktion combine_words(word1, word2), die zwei Wörter aneinanderhängt.
+# Beispiel: combine_words("Super", "markt") → "Supermarkt"
+def combine_words(word1, word2):
+    return word1 + word2
+# Funktionsaufruf
+combine_words("Super","markt")
