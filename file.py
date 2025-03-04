@@ -160,3 +160,11 @@ def first_three_letters(word):
     return word[:3]
 # Funktionsaufruf
 first_three_letters("Banane")
+
+# Prüfen, ob eine Zahl kleiner als 100 ist
+# Schreibe eine Funktion is_less_than_100(n), die True zurückgibt, wenn n kleiner als 100 ist.
+# Beispiel: is_less_than_100(50) → True, is_less_than_100(150) → False
+def is_less_than_100(n):
+    return n >= 100
+# Funktionsaufruf
+is_less_than_100(99)
