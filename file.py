@@ -49,3 +49,11 @@ def repeat_word(word, times):
     return word *times
 # Funktionsaufruf
 repeat_word("Hallo",3)
+
+# Prüfen, ob eine Zahl positiv ist
+# Schreibe eine Funktion is_positive(n), die True zurückgibt, wenn eine Zahl positiv ist, sonst False.
+# Beispiel: is_positive(7) → True, is_positive(-3) → False
+def is_positive(n):
+    return n > 0
+# Funktionsaufruf
+is_positive(1)
