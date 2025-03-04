@@ -120,3 +120,11 @@ def is_ten(n):
     return n == 10
 # Funktionsaufruf
 is_ten(10)
+
+# Prüfen, ob ein Wort "Hallo" ist
+# Schreibe eine Funktion is_hello(word), die True zurückgibt, wenn das Wort "Hallo" ist, sonst False.
+# Beispiel: is_hello("Hallo") → True, is_hello("Hi") → False
+def is_hello(word):
+    return word == "hallo"
+# Funktionsaufruf
+is_hello("hallo")
