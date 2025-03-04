@@ -73,3 +73,11 @@ def combine_words(word1, word2):
     return word1 + word2
 # Funktionsaufruf
 combine_words("Super","markt")
+
+# Letztes Zeichen einer Zeichenkette
+# Schreibe eine Funktion last_character(text), die das letzte Zeichen eines Textes zurückgibt.
+# Beispiel: last_character("Hallo") → "o"
+def last_character(text):
+    return text[-1]
+# Funktionsaufruf
+last_character("Hallo")
