@@ -144,3 +144,11 @@ def max_number(a, b):
     return max(a, b)
 # Funktionsaufruf
 max_number(5, 8)
+
+# Prüfen, ob ein Wort mit "A" beginnt
+# Schreibe eine Funktion starts_with_a(word), die True zurückgibt, wenn das Wort mit "A" beginnt.
+# Beispiel: starts_with_a("Apfel") → True, starts_with_a("Banane") → False
+def starts_whit_a(word):
+    return word.startswith("A")
+# Funktionsaufruf
+starts_whit_a("Apfel")
