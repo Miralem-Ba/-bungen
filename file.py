@@ -7,3 +7,8 @@ def greet(name):
 # Funktionsaufruf
 greet("Anna")
 
+# Variante2
+def greet(name):
+    return "Hallo,{}".format(name)
+# Funktionsaufruf
+greet("Anna")
