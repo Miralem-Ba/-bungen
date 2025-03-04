@@ -104,3 +104,11 @@ def good_morning(name):
     return f"guten Morgen, {name}"
 # Funktionsaufruf
 good_morning("paul")
+
+# Subtrahiere zwei Zahlen
+# Schreibe eine Funktion subtract(a, b), die zwei Zahlen subtrahiert und das Ergebnis zurückgibt.
+# Beispiel: subtract(10, 4) → 6
+def subrtact(a, b):
+    return a + b
+# Funktionsaufruf
+subrtact(50,35)
