@@ -96,3 +96,11 @@ def greet_with_age(name, age):
     return "Hallo {}, du bist {} Jahre alt!".format(name, age)
 # Funktionsaufruf
 print(greet_with_age("Miralem", 35))
+
+# Begrüßung mit "Guten Morgen"
+# Schreibe eine Funktion good_morning(name), die eine Person mit "Guten Morgen, [Name]!" begrüßt.
+# Beispiel: good_morning("Paul") → "Guten Morgen, Paul!"
+def good_morning(name):
+    return f"guten Morgen, {name}"
+# Funktionsaufruf
+good_morning("paul")
