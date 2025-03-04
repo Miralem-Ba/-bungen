@@ -12,3 +12,11 @@ def greet(name):
     return "Hallo,{}".format(name)
 # Funktionsaufruf
 greet("Anna")
+
+# Quadrat einer Zahl
+# Schreibe eine Funktion square(n), die das Quadrat einer Zahl zurückgibt.
+# Beispiel: square(4) → 16
+def square(n):
+    return n * n
+# Funktionsaufruf
+square(4)
