@@ -128,3 +128,12 @@ def is_hello(word):
     return word == "hallo"
 # Funktionsaufruf
 is_hello("hallo")
+
+# Einen Namen zweimal ausgeben
+# Schreibe eine Funktion repeat_name(name), die einen Namen zweimal hintereinander ausgibt.
+# Beispiel: repeat_name("Lisa") → "LisaLisa"
+def repeat_name(name):
+    return name + name
+# Funktionsaufruf
+repeat_name("lisa")
+
