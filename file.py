@@ -152,3 +152,11 @@ def starts_whit_a(word):
     return word.startswith("A")
 # Funktionsaufruf
 starts_whit_a("Apfel")
+
+# Die ersten drei Zeichen eines Wortes
+# Schreibe eine Funktion first_three_letters(word), die die ersten drei Zeichen eines Wortes zurückgibt.
+# Beispiel: first_three_letters("Banane") → "Ban"
+def first_three_letters(word):
+    return word[:3]
+# Funktionsaufruf
+first_three_letters("Banane")
