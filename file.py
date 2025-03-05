@@ -306,3 +306,12 @@ def repeat_three_times(word):
     return word+word+word
 # Funktionsaufruf
 repeat_three_times("Wow")
+
+# Prüfen, ob ein Wort mit "B" beginnt
+# Schreibe eine Funktion starts_with_b(word), die True zurückgibt, wenn das Wort mit "B" beginnt.
+# Beispiel: starts_with_b("Banane") → True, starts_with_b("Apfel") → False
+def starts_with_b(word):
+    return word.lower().startswith("b")
+# Funktionsaufruf
+starts_with_b("Banane")
+starts_with_b("Apfel")
