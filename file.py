@@ -323,3 +323,13 @@ def name_uppercase(name):
     return name.upper()
 # Funktionsaufruf
 name_uppercase("lukas")
+
+# Prüfen, ob eine Zahl genau 50 ist
+# Schreibe eine Funktion is_fifty(n), die True zurückgibt, wenn die Zahl genau 50 ist, sonst False.
+# Beispiel: is_fifty(50) → True, is_fifty(49) → False
+def is_fifty(n):
+    return n == 50
+# Funktionsaufruf
+is_fifty(50)
+is_fifty(49)
+
