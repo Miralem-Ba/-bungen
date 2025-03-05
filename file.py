@@ -266,3 +266,10 @@ def greet_with_time(name, time):
 # Funktionsaufruf
 print(greet_with_time("Lena", "Morgen"))  # Ausgabe: Guten Morgen, Lena!
 
+# Eine Zahl verdreifachen
+# Schreibe eine Funktion triple(n), die eine Zahl verdreifacht und das Ergebnis zurückgibt.
+# Beispiel: triple(4) → 12
+def triple(n):
+    return n * 3
+# Funktionsaufruf
+triple(4)
