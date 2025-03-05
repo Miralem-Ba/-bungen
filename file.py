@@ -273,3 +273,12 @@ def triple(n):
     return n * 3
 # Funktionsaufruf
 triple(4)
+
+# Den ersten und letzten Buchstaben eines Wortes zurückgeben
+# Schreibe eine Funktion first_and_last_letter(word), die den ersten und letzten Buchstaben eines Wortes kombiniert.
+# Beispiel: first_and_last_letter("Apfel") → "Al"
+def first_and_last_letter(word):
+    return word[0] + word[-1]
+# Funktionsaufruf
+first_and_last_letter("apfel")
+
