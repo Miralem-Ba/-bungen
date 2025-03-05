@@ -257,3 +257,12 @@ def add_question_mark(sentence):
     return sentence + " ? "
 # Funktionsaufruf
 add_question_mark("Wie geht es dir")
+
+# Begrüßung mit Tageszeit
+# Schreibe eine Funktion greet_with_time(name, time), die eine Person mit Name und Tageszeit begrüßt.
+# Beispiel: greet_with_time("Lena", "Morgen") → "Guten Morgen, Lena!"
+def greet_with_time(name, time):
+    return f"Guten {time}, {name}!"
+# Funktionsaufruf
+print(greet_with_time("Lena", "Morgen"))  # Ausgabe: Guten Morgen, Lena!
+
