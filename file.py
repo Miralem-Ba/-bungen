@@ -233,3 +233,11 @@ def middle_letter(word):
     return word[2]
 # Funktionsaufruf
 middle_letter("Katze")
+
+# Die Anzahl der Zeichen eines Namens zählen
+# Schreibe eine Funktion name_length(name), die die Anzahl der Zeichen in einem Namen zurückgibt.
+# Beispiel: name_length("Julia") → 5
+def name_length(name):
+    return len(name)
+# Funktionsaufruf
+name_length("Julia")
