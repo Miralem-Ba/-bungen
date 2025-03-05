@@ -315,3 +315,11 @@ def starts_with_b(word):
 # Funktionsaufruf
 starts_with_b("Banane")
 starts_with_b("Apfel")
+
+# Einen Namen in Großbuchstaben ausgeben
+# Schreibe eine Funktion name_uppercase(name), die einen Namen in Großbuchstaben zurückgibt.
+# Beispiel: name_uppercase("Lukas") → "LUKAS"
+def name_uppercase(name):
+    return name.upper()
+# Funktionsaufruf
+name_uppercase("lukas")
