@@ -209,3 +209,12 @@ def is_anna(name):
     return name == "anna"
 # Funktionsaufruf
 is_anna("anna")
+
+# Ein Wort in Kleinbuchstaben umwandeln
+# Schreibe eine Funktion to_lowercase(word), die ein Wort in Kleinbuchstaben umwandelt.
+# Beispiel: to_lowercase("PYTHON") → "python"
+def to_lowercase(word):
+    return word.lower()
+# Funktionsaufruf
+to_lowercase("PYTHON")
+
