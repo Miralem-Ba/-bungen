@@ -193,3 +193,11 @@ def increase_by_one(n):
     return n + 1
 # Funktionsaufruf
 increase_by_one(7)
+
+# Eine Zahl halbieren
+# Schreibe eine Funktion half(n), die die Hälfte einer Zahl zurückgibt.
+# Beispiel: half(10) → 5.0
+def zahl_half(n):
+    return n / 2
+# Funktionsaufruf
+zahl_half(10)
