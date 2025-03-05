@@ -185,3 +185,11 @@ def good_day(name):
     return "Schönen Tag noch,{}".format(name)
 # Funktionsaufruf
 good_day("Max")
+
+# Eine Zahl um 1 erhöhen
+# Schreibe eine Funktion increase_by_one(n), die eine Zahl um 1 erhöht und das Ergebnis zurückgibt.
+# Beispiel: increase_by_one(7) → 8
+def increase_by_one(n):
+    return n + 1
+# Funktionsaufruf
+increase_by_one(7)
