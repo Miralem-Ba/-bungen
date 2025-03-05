@@ -201,3 +201,11 @@ def zahl_half(n):
     return n / 2
 # Funktionsaufruf
 zahl_half(10)
+
+# Prüfen, ob ein Name "Anna" ist
+# Schreibe eine Funktion is_anna(name), die True zurückgibt, wenn der Name "Anna" ist, sonst False.
+# Beispiel: is_anna("Anna") → True, is_anna("Lena") → False
+def is_anna(name):
+    return name == "anna"
+# Funktionsaufruf
+is_anna("anna")
