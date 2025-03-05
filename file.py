@@ -289,3 +289,12 @@ def is_hundred(n):
     return n == 100
 # Funktionsaufruf
 is_hundred(100)
+
+# Prüfen, ob eine Zahl kleiner als 10 ist
+# Schreibe eine Funktion is_less_than_ten(n), die True zurückgibt, wenn die Zahl kleiner als 10 ist.
+# Beispiel: is_less_than_ten(8) → True, is_less_than_ten(15) → False
+def is_less_than_ten(n):
+    return n < 10
+# Funktionsaufruf
+is_less_than_ten(8)
+is_less_than_ten(15)
