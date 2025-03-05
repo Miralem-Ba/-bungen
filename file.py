@@ -177,3 +177,11 @@ def add_exclamation(sentence):
 # Funktionsaufruf
 add_exclamation("Ich mag Programmieren")
 add_exclamation("Wow!")
+
+# Begrüßung mit "Schönen Tag noch"
+# Schreibe eine Funktion good_day(name), die eine Person mit "Schönen Tag noch, [Name]!" verabschiedet.
+# Beispiel: good_day("Max") → "Schönen Tag noch, Max!"
+def good_day(name):
+    return "Schönen Tag noch,{}".format(name)
+# Funktionsaufruf
+good_day("Max")
