@@ -249,3 +249,11 @@ def combine_with_space(word1, word2):
     return word1+ " " + word2
 # Funktionsaufruf
 combine_with_space("Hallo", "Welt")
+
+# Ein Fragezeichen an eine Frage anhängen
+# Schreibe eine Funktion add_question_mark(sentence), die ein Fragezeichen an einen Satz anhängt.
+# Beispiel: add_question_mark("Wie geht es dir") → "Wie geht es dir?"
+def add_question_mark(sentence):
+    return sentence + " ? "
+# Funktionsaufruf
+add_question_mark("Wie geht es dir")
