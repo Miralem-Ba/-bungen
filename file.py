@@ -241,3 +241,11 @@ def name_length(name):
     return len(name)
 # Funktionsaufruf
 name_length("Julia")
+
+# Zwei Wörter mit einem Leerzeichen verbinden
+# Schreibe eine Funktion combine_with_space(word1, word2), die zwei Wörter mit einem Leerzeichen verbindet.
+# Beispiel: combine_with_space("Hallo", "Welt") → "Hallo Welt"
+def combine_with_space(word1, word2):
+    return word1+ " " + word2
+# Funktionsaufruf
+combine_with_space("Hallo", "Welt")
