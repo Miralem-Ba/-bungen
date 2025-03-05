@@ -333,3 +333,10 @@ def is_fifty(n):
 is_fifty(50)
 is_fifty(49)
 
+# Die Anzahl der Wörter in einem Satz zählen
+# Schreibe eine Funktion count_words(sentence), die die Anzahl der Wörter in einem Satz zurückgibt.
+# Beispiel: count_words("Ich liebe Programmieren") → 3
+def count_words(sentence):
+    return len(sentence.split())
+# Funktionsaufruf
+count_words("Ich liebe Programmieren")
