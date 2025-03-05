@@ -218,3 +218,11 @@ def to_lowercase(word):
 # Funktionsaufruf
 to_lowercase("PYTHON")
 
+# Prüfen, ob eine Zahl größer als 50 ist
+# Schreibe eine Funktion is_greater_than_50(n), die True zurückgibt, wenn die Zahl größer als 50 ist.
+# Beispiel: is_greater_than_50(75) → True, is_greater_than_50(30) → False
+def is_greater_than_50(n):
+    return n >= 50
+# Funktionsaufruf
+is_greater_than_50(50)
+
