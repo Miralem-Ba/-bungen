@@ -298,3 +298,11 @@ def is_less_than_ten(n):
 # Funktionsaufruf
 is_less_than_ten(8)
 is_less_than_ten(15)
+
+# Ein Wort dreimal ausgeben
+# Schreibe eine Funktion repeat_three_times(word), die ein Wort dreimal hintereinander ausgibt.
+# Beispiel: repeat_three_times("Wow") → "WowWowWow"
+def repeat_three_times(word):
+    return word+word+word
+# Funktionsaufruf
+repeat_three_times("Wow")
