@@ -282,3 +282,10 @@ def first_and_last_letter(word):
 # Funktionsaufruf
 first_and_last_letter("apfel")
 
+#  Prüfen, ob eine Zahl genau 100 ist
+# Schreibe eine Funktion is_hundred(n), die True zurückgibt, wenn die Zahl genau 100 ist, sonst False.
+# Beispiel: is_hundred(100) → True, is_hundred(50) → False
+def is_hundred(n):
+    return n == 100
+# Funktionsaufruf
+is_hundred(100)
