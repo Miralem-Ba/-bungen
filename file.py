@@ -226,3 +226,10 @@ def is_greater_than_50(n):
 # Funktionsaufruf
 is_greater_than_50(50)
 
+# Den mittleren Buchstaben eines Wortes zurückgeben
+# Schreibe eine Funktion middle_letter(word), die den mittleren Buchstaben eines Wortes zurückgibt.
+# Beispiel: middle_letter("Katze") → "t"
+def middle_letter(word):
+    return word[2]
+# Funktionsaufruf
+middle_letter("Katze")
